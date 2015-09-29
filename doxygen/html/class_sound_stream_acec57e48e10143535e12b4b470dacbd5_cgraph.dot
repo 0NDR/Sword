@@ -1,0 +1,20 @@
+digraph "SoundStream::ReadDataTo"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SoundStream::ReadDataTo",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SoundStream::getFormat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_stream.html#a0985fd2e6fd516bf890b48b4e97540dd"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoundStream::getStreamPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_stream.html#a4bd02799d4be0b7d61d238851bc58225"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Object::getName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_object.html#a6390f4fca865dc59e3442e9f0fb6bd5e"];
+  Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="SoundStream::getStreamLength",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_stream.html#a75d70293c3bb6c53d6f52c52a3a0218d"];
+  Node5 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SoundStream::setStreamPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_stream.html#aec7ff290dcfdedc089f2131e6f8f8ab5"];
+  Node6 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

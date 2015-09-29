@@ -1,0 +1,24 @@
+digraph "SoundStream::loadFromFile"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="SoundStream::loadFromFile",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="SoundStream::ReadDataTo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_stream.html#acec57e48e10143535e12b4b470dacbd5"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="SoundStream::getFormat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_stream.html#a0985fd2e6fd516bf890b48b4e97540dd"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="SoundStream::getStreamPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_stream.html#a4bd02799d4be0b7d61d238851bc58225"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Object::getName",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_object.html#a6390f4fca865dc59e3442e9f0fb6bd5e"];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="SoundStream::getStreamLength",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_stream.html#a75d70293c3bb6c53d6f52c52a3a0218d"];
+  Node6 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="SoundStream::setStreamPosition",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_stream.html#aec7ff290dcfdedc089f2131e6f8f8ab5"];
+  Node7 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="SoundStream::getBuffers",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_stream.html#afd0c2a6435611d9e9057e00b31301c02"];
+}

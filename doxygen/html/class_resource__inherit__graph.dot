@@ -1,0 +1,37 @@
+digraph "Resource"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Resource",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_object.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Font",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_font.html"];
+  Node1 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="FrameBuffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_frame_buffer.html"];
+  Node1 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="InstanceFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_instance_factory.html"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="LuaScript",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_lua_script.html"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Mesh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_mesh.html"];
+  Node1 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="ResourceFactory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_resource_factory.html"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Shader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_shader.html"];
+  Node9 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="GameShader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_game_shader.html"];
+  Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="Sound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound.html"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="SoundStream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sound_stream.html"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="TextureBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_texture_base.html"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="glTexture",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classgl_texture.html"];
+  Node14 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="DualTexture",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dual_texture.html"];
+  Node13 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="TextTexture",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_text_texture.html"];
+  Node16 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

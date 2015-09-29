@@ -1,0 +1,13 @@
+digraph "PhysicsWorld::RegisterLua"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="PhysicsWorld::RegisterLua",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="GLOBAL::addRegister",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_g_l_o_b_a_l.html#a232ab9edd3a847771c8ab47813a21c14"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GLOBAL::getContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_g_l_o_b_a_l.html#a48421068f5a2961b446e71f3dba107e1"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="PhysicsWorld::TypeID",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_physics_world.html#a87c7e971e9f32a1f7e33ef6334929e3e"];
+}

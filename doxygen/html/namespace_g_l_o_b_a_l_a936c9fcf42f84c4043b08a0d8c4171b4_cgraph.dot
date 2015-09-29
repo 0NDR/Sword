@@ -1,0 +1,27 @@
+digraph "GLOBAL::RegisterLua"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="GLOBAL::RegisterLua",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="GLOBAL::addRegister",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_g_l_o_b_a_l.html#a232ab9edd3a847771c8ab47813a21c14"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="GLOBAL::getContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$namespace_g_l_o_b_a_l.html#a48421068f5a2961b446e71f3dba107e1"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="luaWait",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_g_l_o_b_a_l_8cpp.html#a5f89e37ff7585e8b19b47e3f71de0471"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="luaClock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_g_l_o_b_a_l_8cpp.html#a7ec4deedd816f5b39e8996684c8e66b6"];
+  Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="vec2help::power",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structvec2help.html#a660ba405460b5f64ae9de0703a11dc9c"];
+  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="vec2help::getString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structvec2help.html#a933c33671964d48c3c165131eb1ec486"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="vec3help::power",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structvec3help.html#a11434f2a8dfc67ee005b60388976147c"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="vec3help::getString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structvec3help.html#a17d7a425553893e9084f8262f99d1cd4"];
+  Node1 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="vec4help::power",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structvec4help.html#a21ece1a162454ec9a2d89d280ed2079d"];
+  Node1 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="vec4help::getString",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structvec4help.html#a6cae5d508aa3146d6fe7c6431c74ed2c"];
+}

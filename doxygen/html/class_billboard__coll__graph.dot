@@ -1,0 +1,25 @@
+digraph "Billboard"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="Billboard",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="UI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_u_i.html"];
+  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Object2D",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_object2_d.html"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Renderable",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_renderable.html"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Object",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_object.html"];
+  Node5 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Parent" ,fontname="Helvetica"];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" renderShader" ,fontname="Helvetica"];
+  Node6 [label="Shader",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_shader.html"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Resource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_resource.html"];
+  Node5 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" renderWindow" ,fontname="Helvetica"];
+  Node8 [label="Window",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_window.html"];
+  Node9 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" renderMesh" ,fontname="Helvetica"];
+  Node9 [label="Mesh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_mesh.html"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
